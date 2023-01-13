@@ -211,3 +211,30 @@ section {
     text-align: center;
     margin-top: 20px;
 }
+
+.contact-continer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;;
+}
+.contact-item {
+    max-width: 50%;
+}
+.contact-continer .section-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contact-item p {
+    margin-bottom: 30px;
+}
+.contact-item a {
+    margin-right: 25px;
+    height: 24px;
+    color: #FD6E0A;
+}
+.contact-continer input[type="text"], textarea {
+    margin-bottom: 25px;
+    border: 0;
+    width: 100%;
+    height: 64px;
+}
